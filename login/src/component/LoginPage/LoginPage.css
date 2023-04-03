@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-Container {
+  position: relative;
+
+  padding: 10px;
+  background-color: #ffffff;
+}
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+h2 {
+  margin-bottom: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+form {
+  position: absolute;
+  width: 641px;
+  height: 654px;
+  left: 1136px;
+  top: 276px;
+
+  background: #f7fafc;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonContainer {
+  padding: 20px;
+}
+.blueButton {
+  width: 479px;
+  height: 54px;
+  left: 80px;
+  top: 464px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border-style: none;
+  color: #ffffff;
+  background: #4299e1;
+  border-radius: 15px;
+}
+h {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 702px;
+  height: 237px;
+  left: 258px;
+  top: 380px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47.1841px;
+  line-height: 57px;
+
+  color: #000000;
+}
+
+.formHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+}
+.loginpage-child {
+  position: absolute;
+  width: 3786.51px;
+  height: 965px;
+  left: -174.51px;
+  top: -169px;
+
+  opacity: 0.9;
+}
